@@ -13,8 +13,8 @@ menu:
 weight: 060
 toc: false
 pinned: false
-types: ["física", "biología"]
-functionalities: ["revisado por pares"]
+types: ["Física", "Biología"]
+functionalities: ["Revisado por pares"]
 ---
 
 ```

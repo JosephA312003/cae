@@ -13,8 +13,8 @@ menu:
 weight: 060
 toc: false
 pinned: false
-types: ["psicología"]
-functionalities: ["artículo"]
+types: ["Psicología"]
+functionalities: ["Artículo"]
 ---
 
 ```

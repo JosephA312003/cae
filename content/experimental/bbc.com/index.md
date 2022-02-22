@@ -13,8 +13,8 @@ menu:
 weight: 060
 toc: false
 pinned: false
-types: ["biología"]
-functionalities: ["artículo"]
+types: ["Biología"]
+functionalities: ["Artículo"]
 ---
 
 ```
