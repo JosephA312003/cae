@@ -15,10 +15,10 @@ weight: 10
 
 | Código | Curso                            | Créditos |
 | ------ | -------------------------------- | -------- |
-| CBO101 | LENGUAJE                         | 4        |
-| CBO102 | MÉTODOS DE ESTUDIO UNIVERSITARIO | 3        |
-| CBO103 | GESTIÓN PERSONAL                 | 3        |
-| CBO104 | CÁLCULO I                        | 4        |
-| CBO105 | MATEMÁTICA BÁSICA                | 4        |
-| CBO106 | BIOLOGÍA                         | 4        |
-| \-     | FÍSICA GENERAL I                 | 2        |
+| CBO101 | Lenguaje                         | 4        |
+| CBO102 | Métodos de Estudio Universitario | 3        |
+| CBO103 | Gestión Personal                 | 3        |
+| CBO104 | Cálculo I                        | 4        |
+| CBO105 | Matemática Básica                | 4        |
+| CBO106 | Biología                         | 4        |
+| CBE013 | Física General I                 | 2        |

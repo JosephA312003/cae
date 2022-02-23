@@ -16,19 +16,19 @@ jobs:
         node: [14.x, 16.x]
 
     steps:
-    - name: Check out Hyas project
+    - name: Revisando el proyecto
       uses: actions/checkout@v2
 
-    - name: Set up Node.js ${{ matrix.node }}
+    - name: Instalar Node.js ${{ matrix.node }}
       uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node }}
 
-    - name: Install dependencies
+    - name: Instalar dependencias
       run: npm ci
 
-    - name: Run Hyas test script
+    - name: Script de prueba
       run: npm test
 
-    - name: Build production website
+    - name: Construir sitio
       run: npm run build

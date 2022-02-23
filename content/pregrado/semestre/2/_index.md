@@ -15,9 +15,9 @@ weight: 10
 
 | Código | Curso                                   | Créditos | Requisito |
 | ------ | --------------------------------------- | -------- | --------- |
-| CBO201 | FUNDAMENTOS DE INVESTIGACIÓN CIENTÍFICA | 3        |           |
-| CBO202 | MEDIO AMBIENTE Y DESARROLLO SOSTENIBLE  | 4        | BIOLOGÍA  |
-| CBO203 | REALIDAD NACIONAL Y MUNDIAL             | 3        |           |
-| CBO204 | CÁLCULO II                              | 4        | CÁLCULO I |
-| CBO205 | QUÍMICA INORGÁNICA Y ORGÁNICA           | 4        |           |
-| CBO207 | FISICA GENERAL II                       | 4        |           |
+| CBO201 | Fundamentos de Investigación Científica | 3        |           |
+| CBO202 | Medio Ambiente y Desarrollo Sostenible  | 4        | Biología  |
+| CBO203 | Realidad Nacional y Mundial             | 3        |           |
+| CBO204 | Cálculo II                              | 4        | Cálculo I |
+| CBO205 | Química Inorgánica y Orgánica           | 4        |           |
+| CBE014 | Fisica General II                       | 4        |           |

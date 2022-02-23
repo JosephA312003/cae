@@ -1,6 +1,16 @@
-<h1 align="center">Estadísticas</h1>
+<p style="text-align: center" href="https://app.netlify.com/sites/caefis/deploys">
+        <image src="https://api.netlify.com/api/v1/badges/abc167f5-8dee-48db-a7da-3c97c18849be/deploy-status"></image>
+</p>
 
-</br>
+<center>
+
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/caefisica)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white
+)](https://www.instagram.com/caefisica/)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white
+)](https://twitter.com/caefisica)
+
+</center>
 
 <p align="center" href="https://github.com/caefis/cae">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=caefis&repo=cae" />
@@ -8,10 +18,7 @@
 
 ---
 
-</br>
-
-<h2 align="center"><b>Colaboradores:</b></h2> 
-
+<br>
 <p align="center" href="https://github.com/caefis/cae/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=caefis/cae" />
 </p>
@@ -19,7 +26,7 @@
 
 ---
 
-## Requisitos
+<h2 align="center"><b>Requisitos:</b></h3> 
 
 > El autor usa Windows 11 (64 bits). Los pasos pueden variar un poco si usas un SO basado en Linux por ejemplo. Adicionalmente, te recomendaría usar las variantes para x64 al escoger los instaladores.
 

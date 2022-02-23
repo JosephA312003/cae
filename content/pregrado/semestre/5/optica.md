@@ -1,20 +1,32 @@
 ---
-title: "Séptimo"
+title: "Óptica"
 description: ""
-lead: "Séptimo"
-date: 2022-02-02T08:48:57+00:00
-lastmod: 2022-02-02T08:48:57+00:00
+lead: ""
+date: 2022-02-22T22:00:27
+lastmod:
+  - :git
+  - lastmod
+  - date
+  - publishDate
 draft: false
 images: []
 menu:
   pregrado:
     parent: "semestre"
-weight: 70
+weight: 10
 toc: true
-contributors: ["Ghandyt"]
+contributors: ["Alvaro"]
 ---
 
-### Curso 1
+---
+
+{{< alert icon="🔔" text="Esta página todavía se encuentra en proceso de redacción." />}}
+
+{{< construccion >}}
+
+---
+
+<br>
 
 > 📌 Los temas que se tocarán son los correspondientes al estudio del ....
 

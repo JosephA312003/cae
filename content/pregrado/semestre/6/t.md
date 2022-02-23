@@ -1,26 +1,26 @@
 ---
-title: "Sexto"
-description: "Sexto semestre"
+title: "Termodinámica"
+description: ""
 lead: ""
-date: 2022-02-16T08:48:57+00:00
-lastmod: 2022-02-16T08:48:57+00:00
+date: 2022-02-22T22:00:27
+lastmod:
+  - :git
+  - lastmod
+  - date
+  - publishDate
 draft: false
 images: []
 menu:
   pregrado:
     parent: "semestre"
-weight: 60
+weight: 10
 toc: true
 contributors: ["David"]
 ---
 
-## Termodinámica
-
-{{< details "Markdown and HTML" >}}
-_Markdown_ and <em>HTML</em> will be rendered.
+{{< details "Acerca de los libros" >}}
+Muchos de los libros de Termodinámica suelen contener temas sobre física estadística.
 {{< /details >}}
-
-{{< alert icon="👉" context="info" text="Hola" />}}
 
 ### Libros
 

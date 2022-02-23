@@ -1,9 +1,13 @@
 ---
-title: "Segundo"
-description: "Bienvenido al segundo semestre. Trata de aprovecharlo al máximo para subir tu promedio."
-lead: "Bienvenido al segundo semestre. Trata de aprovecharlo al máximo para subir tu promedio."
-date: 2022-02-02T08:48:57+00:00
-lastmod: 2022-02-02T08:48:57+00:00
+title: "Física Computacional II"
+description: ""
+lead: ""
+date: 2022-02-22T22:00:27
+lastmod:
+  - :git
+  - lastmod
+  - date
+  - publishDate
 draft: false
 images: []
 menu:
@@ -11,10 +15,18 @@ menu:
     parent: "semestre"
 weight: 20
 toc: true
-contributors: ["Sergio"]
+contributors: ["Alvaro"]
 ---
 
-### Curso 1
+---
+
+{{< alert icon="🔔" text="Esta página todavía se encuentra en proceso de redacción." />}}
+
+{{< construccion >}}
+
+---
+
+<br>
 
 > 📌 Los temas que se tocarán son los correspondientes al estudio del ....
 
