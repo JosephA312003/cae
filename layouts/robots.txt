@@ -5,4 +5,5 @@ Allow: /
 Disallow: /
 {{ end }}
 Sitemap: {{ "sitemap.xml" | absURL -}}
+
 Sitemap: {{ "sitemapv2.xml" | absURL -}}
