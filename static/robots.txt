@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://caefis.netlify.app/sitemap.xml
+Sitemap: https://caefis.netlify.app/sitemapv2.xml
