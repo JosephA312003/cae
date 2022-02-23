@@ -1,0 +1,33 @@
+---
+title: "Cálculo II"
+description: ""
+lead: ""
+date: 2022-02-22T22:00:27
+lastmod:
+  - :git
+  - lastmod
+  - date
+  - publishDate
+draft: false
+images: []
+menu:
+  pregrado:
+    parent: "semestre"
+weight: 20
+toc: true
+contributors: ["Sergio"]
+---
+
+<br />
+<br />
+
+---
+
+{{< alert icon="🔔" text="Esta página todavía se encuentra en proceso de redacción." />}}
+
+{{< construccion >}}
+
+---
+
+<br />
+<br />

@@ -7,6 +7,7 @@
     <div class="col-lg-9 col-xl-8 text-center">
       <p class="lead">{{ .Params.Lead | safeHTML }}</p>
       <a class="btn btn-primary btn-lg px-4 mb-2" href="{{ "pregrado/" | relURL }}" role="button">Comenzar</a>
+      <p class="meta">Distribuido bajo la licencia de código abierto MIT. Versión {{ $data := getJSON "https://raw.githubusercontent.com/caefis/cae/master/package.json" }}{{ $data.version }}</a></p>
     </div>
   </div>
 </section>

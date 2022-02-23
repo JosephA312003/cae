@@ -9,5 +9,6 @@ lastmod:
   - date
   - publishDate
 draft: false
+weight: 20
 images: []
 ---

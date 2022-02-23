@@ -1,7 +1,7 @@
 ---
-title: "Primero"
-description: "Bienvenido al primer semestre. Trata de aprovecharlo al máximo para subir tu promedio."
-lead: "Bienvenido al primer semestre. Trata de aprovecharlo al máximo para subir tu promedio."
+title: "Cálculo I"
+description: ""
+lead: ""
 date: 2022-02-01T17:28:27
 lastmod:
   - :git
@@ -18,15 +18,11 @@ toc: true
 contributors: ["Sergio"]
 ---
 
-## Cálculo I
+{{< alert icon="📌" text="Los temas que se tocarán son los correspondientes al estudio del cálculo diferencial de una sola variable." />}}
 
-*Estás por conocer la herramienta más usada en la Física. Provecho* 😃
+<br>
 
-> 📌 Los temas que se tocarán son los correspondientes al estudio del cálculo diferencial de una sola variable.
-
-<!-- -->
-
-> **Requisitos**: Álgebra, trigonometría y algunas nociones de geometría analítica.
+{{< alert icon="👉" text="**Requisitos**: Álgebra, trigonometría y algunas nociones de geometría analítica." />}}
 
 ### ¿Qué libros debo consultar?
 
@@ -64,7 +60,7 @@ Para que lleves un orden y un mejor aprovechamiento de estos libros, los hemos a
 3. [Espinoza Ramos, E](https://drive.google.com/file/d/1CxkzwugNRq8d1Bckpn8KjsSlI8UmRMwb/view?usp=sharing). (2012). *Solucionario de análisis matemático I para estudiantes de ciencia e ingienería*. (1a ed.). Espinoza Ramos.
 
 
-***Algo que decir de estos libros**.*
+### Conclusión
 
 - Si aún no inician tus clases y quieres introducirte en este curso, entonces puedes consultar primero el **Stewart** ya que su contenido es más didáctico en comparación a los otros dos. Ten en cuenta que este libro tiene un enfoque al modelado por lo que verás muchas gráficas y ejercicios donde se requiera uso de softwares libres. De todas maneras, durante el curso será un buen complemento para los otros dos libros teóricos.
 - El **Venero**, el **Mitac** y el **Demidovich** son los principales libros que los profesores te pedirán que consultes ya que probablemente ellos también los usarán, ¡¡ a veces la clase teórica del profesor es lo mismo que está en el **Venero**!!. Por último, desarrollar los ejercicios del **Mitac** será una buena forma de prepararte para tus prácticas calificadas.

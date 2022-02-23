@@ -500,11 +500,11 @@ function() {
     b = a.getAttribute('data-bd-docs-version'), document.addEventListener('keydown', function(b) {
         b.ctrlKey && b.key === '/' && (b.preventDefault(), a.focus())
     }), window.docsearch({
-        apiKey: '89f91b80c77205fbd14f6c09e03bc816',
-        indexName: 'caefis.netlify.app',
+        apiKey: '5990ad008512000bba2cf951ccf0332f',
+        indexName: 'bootstrap',
         inputSelector: '#search-input',
         algoliaOptions: {
-            facetFilters: [is_active=1]
+            facetFilters: ['version:' + b]
         },
         transformData: function(a) {
             return a.map(function(a) {

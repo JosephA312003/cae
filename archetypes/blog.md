@@ -6,6 +6,6 @@ date: {{ .Date }}
 lastmod: {{ .Date }}
 draft: true
 weight: 50
-images: []
+images: ["{{ .Name | urlize }}.jpg"]
 contributors: ["Henk Verlinde"]
 ---

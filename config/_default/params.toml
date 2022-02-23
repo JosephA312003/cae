@@ -33,7 +33,7 @@ schemaImageWidth = 1280
 schemaImageHeight = 640
 schemaTwitter = "https://twitter.com/cae_fisica"
 schemaLinkedIn = ""
-schemaGitHub = ""
+schemaGitHub = "https://github.com/caefis/cae"
 schemaSection = "blog"
 
 ## Sitelinks Search Box
@@ -48,7 +48,7 @@ bgColor = "#fff"
 landscapePhotoWidths = [900, 800, 700, 600, 500]
 portraitPhotoWidths = [800, 700, 600, 500]
 lqipWidth = "20x"
-smallLimit = "360"
+smallLimit = "600"
 
 # Footer
 footer = "Un proyecto del Centro de Apoyo Estudiantil"
@@ -58,15 +58,19 @@ copyRight = "Copyright (c) 2022 — CAE"
 
 
 # Alert
-alert = false
-alertDismissable = false
+alert = true
+alertDismissable = true
 # alertText = ""
 # alertText = ""
-alertText = ""
+alertText = "Las inscripciones para los minicursos se han abierto, haga clic en el libro para registrarse <a href=\"https://forms.gle/WscNmEsStJJuuXzS7\">📖</a>."
 
 # Edit Page
-docsRepo = "https://github.com/caefis/caefis.github.io"
+repoHost = "GitHub"
+docsRepo = "https://github.com/caefis/cae"
+docsRepoBranch = "master"
+docsRepoSubPath = ""
 editPage = true
+lastMod = true
 
 [options]
   lazySizes = true
@@ -74,12 +78,14 @@ editPage = true
   instantPage = true
   darkMode = true
   bootStrapJs = true
+  breadCrumb = true
   highLight = true
+  kaTex = true
   multilingualMode = false #
   docsVersioning = false #
-  breadCrumb = true
 
 [menu]
   [menu.section]
-    auto = false
+    auto = true
     collapsibleSidebar = true
+    mainSections = ["San Marcos", "Biblioteca", "Experimental", "Blog"]

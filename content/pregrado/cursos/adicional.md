@@ -14,7 +14,7 @@ menu:
   pregrado:
     parent: "cursos"
 toc: true
-weight: 10
+weight: 900
 ---
 
 ## Estándar

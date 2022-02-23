@@ -1,5 +1,6 @@
 {{ if eq .Kind "404" -}}
   <meta name="robots" content="noindex, follow">
+  <title>Lo acabas de romper</title>
 {{ else -}}
   {{ with .Params.robots -}}
     <meta name="robots" content="{{ . }}">

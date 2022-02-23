@@ -1,14 +1,14 @@
 [[pregrado]]
-name = "Semestre"
+name = "Malla curricular"
 weight = 10
 identifier = "semestre"
-url = "/semestre/"
+url = "/pregrado/semestre/"
 
 [[pregrado]]
 name = "Adicional"
 weight = 20
 identifier = "cursos"
-url = "/cursos/"
+url = "/pregrado/cursos/"
 
 [[posgrado]]
 name = "Research"
@@ -48,6 +48,18 @@ url = "/research/"
   url = "/posgrado/maestria"
   parent = "San Marcos"
 
+[[main]]
+  name = "Noticias"
+  weight = 10
+  url = "/rss/"
+  parent = "Experimental"
+
+[[main]]
+  name = "Artículos"
+  weight = 20
+  url = "/experimental/"
+  parent = "Experimental"
+
 [[social]]
   name = "Facebook"
   pre = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" stroke=\"currentColor\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"css-i6dzq1\"><path d=\"M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z\"></path></svg>"
@@ -67,6 +79,11 @@ url = "/research/"
   weight = 30
 
 [[footer]]
+  name = "Boletín"
+  url = "/boletin"
+  weight = 10
+  
+[[footer]]
   name = "Privacidad"
   url = "/privacidad"
   weight = 20
@@ -78,6 +95,6 @@ url = "/research/"
   url = "/experimental/"
 
 [[tertiary]]
-  name = "Enviar un artículo o página web"
+  name = "Envía un artículo o página web"
   url = "https://github.com/caefis/cae/labels/sugerencia"
   weight = 10

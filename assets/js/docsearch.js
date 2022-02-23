@@ -8,8 +8,8 @@ if (searchPlaceholder !== null) {
 
 docsearch({
   container: '#docsearch',
-  appId: 'ERLE2DLLLG',
-  indexName: 'caefis.netlify.app',
-  apiKey: '89f91b80c77205fbd14f6c09e03bc816',
+  appId: 'KMWY81ZWS3',
+  indexName: 'getdoks',
+  apiKey: '56b742bf9ec666576cea28d77030d54b',
   debug: false,
 });

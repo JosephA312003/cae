@@ -44,8 +44,8 @@ function inputFocus(e) {
 /*
 if (document.querySelector('#search') !== null) {
   docsearch({
-    apiKey: '89f91b80c77205fbd14f6c09e03bc816',
-    indexName: 'caefis.netlify.app',
+    apiKey: '978789745e8a1cf3e9a3f0fa321dbdb9',
+    indexName: 'getdoks',
     inputSelector: '#search',
     debug: false,
   });

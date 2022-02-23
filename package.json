@@ -1,10 +1,15 @@
 {
-  "name": "cae-package",
-  "version": "0.3.6",
+  "name": "CAE",
+  "version": "0.8",
   "private": true,
   "browserslist": [
     "defaults"
   ],
+  "repository": "https://github.com/caefis/cae",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "init": "shx rm -rf .git && git init -b main",
     "create": "exec-bin node_modules/.bin/hugo/hugo new",
@@ -28,6 +33,7 @@
     "env": "env",
     "precheck": "npm version",
     "check": "exec-bin node_modules/.bin/hugo/hugo version",
+    "copy:katex-fonts": "shx cp ./node_modules/katex/dist/fonts/* ./static/fonts/",
     "postinstall": "hugo-installer --version otherDependencies.hugo --extended --destination node_modules/.bin/hugo",
     "version": "auto-changelog -p && git add CHANGELOG.md"
   },
@@ -48,18 +54,23 @@
     "highlight.js": "^11.4",
     "hugo-installer": "^3.1",
     "instant.page": "^5.1",
+    "katex": "^0.15",
     "lazysizes": "^5.3",
     "markdownlint-cli2": "^0.4.0",
+    "mermaid": "^8.13",
     "node-fetch": "^3.2",
     "plausible-tracker": "^0.3",
     "postcss": "^8.4",
     "postcss-cli": "^9.1",
     "purgecss-whitelister": "^2.4",
-    "shx": "^0.3",
-    "stylelint": "^14.5",
+    "shx": "^0.3.4",
+    "stylelint": "^14.3",
     "stylelint-config-standard-scss": "^3.0"
   },
   "otherDependencies": {
     "hugo": "0.92.2"
+  },
+  "dependencies": {
+    "@hyas/doks": "^0.4.0"
   }
 }

@@ -2,8 +2,8 @@
 
 </br>
 
-<p align="center" href="https://github.com/caefis/caefis.github.io">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=caefis&repo=caefis.github.io" />
+<p align="center" href="https://github.com/caefis/cae">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=caefis&repo=cae" />
 </p></br>
 
 ---
@@ -12,8 +12,8 @@
 
 <h2 align="center"><b>Colaboradores:</b></h2> 
 
-<p align="center" href="https://github.com/caefis/caefis.github.io/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=caefis/caefis.github.io" />
+<p align="center" href="https://github.com/caefis/cae/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=caefis/cae" />
 </p>
 </br>
 
@@ -49,11 +49,11 @@
 3. En VSCode, presiona `Ctrl + Shift + Ñ`
 4. En el terminal que se acaba de abrir escribe el siguiente comando (clonar el repositorio de Github):
 
-        git clone https://github.com/caefis/caefis.github.io.git
+        git clone https://github.com/caefis/cae.git
 
 5. Ahora cambiaremos de carpeta:
         
-        cd .\caefis.github.io\
+        cd .\cae\
 
 6. Revisa los remotos:
 
@@ -61,18 +61,18 @@
   
     La consola tiene que contestar con un mensaje similar a este (puede que en tu caso no diga `cae` sino `origin`, no deseas cambiarlo, sáltate al paso X):
 
-        cae     https://github.com/caefis/caefis.github.io.git (fetch)
-        cae     https://github.com/caefis/caefis.github.io.git (push)
+        cae     https://github.com/caefis/cae.git (fetch)
+        cae     https://github.com/caefis/cae.git (push)
 
 7. Cambiaremos `origin` por `cae` con:
 
         git remote remove origin
-        git remote add cae https://github.com/caefis/caefis.github.io.git
+        git remote add cae https://github.com/caefis/cae.git
 
     Ahora, al escribir `git remote -v`, tiene que salir algo similar a:
 
-        cae     https://github.com/caefis/caefis.github.io.git (fetch)
-        cae     https://github.com/caefis/caefis.github.io.git (push)
+        cae     https://github.com/caefis/cae.git (fetch)
+        cae     https://github.com/caefis/cae.git (push)
 
 8. Veamos cuantas ramas hay:
 
