@@ -1,5 +1,5 @@
 {
-  "name": "CAE",
+  "name": "cae",
   "version": "0.8.0",
   "private": true,
   "browserslist": [
@@ -36,13 +36,15 @@
     "copy:katex-fonts": "shx cp ./node_modules/katex/dist/fonts/* ./static/fonts/",
     "postinstall": "hugo-installer --version otherDependencies.hugo --extended --destination node_modules/.bin/hugo",
     "version": "auto-changelog -p && git add CHANGELOG.md",
-    "algolia": "atomic-algolia"
+    "algolia": "atomic-algolia",
+    "start:dev": "hugo server -F -D",
+    "build:prod": "hugo && npm run algolia"
   },
   "devDependencies": {
     "@babel/cli": "^7.17",
     "@babel/core": "^7.17",
     "@babel/preset-env": "^7.16",
-    "@docsearch/js": "^3.0.0-alpha.50",
+    "@docsearch/js": "^3.0.0",
     "@fullhuman/postcss-purgecss": "^4.1",
     "auto-changelog": "^2.4",
     "autoprefixer": "^10.4",
@@ -73,6 +75,7 @@
   },
   "dependencies": {
     "@hyas/doks": "^0.4.0",
+    "algoliasearch": "^4.12.1",
     "atomic-algolia": "^0.3.19"
   }
 }
