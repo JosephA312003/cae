@@ -35,7 +35,8 @@
     "check": "exec-bin node_modules/.bin/hugo/hugo version",
     "copy:katex-fonts": "shx cp ./node_modules/katex/dist/fonts/* ./static/fonts/",
     "postinstall": "hugo-installer --version otherDependencies.hugo --extended --destination node_modules/.bin/hugo",
-    "version": "auto-changelog -p && git add CHANGELOG.md"
+    "version": "auto-changelog -p && git add CHANGELOG.md",
+    "algolia": "atomic-algolia"
   },
   "devDependencies": {
     "@babel/cli": "^7.17",
@@ -71,6 +72,7 @@
     "hugo": "0.92.2"
   },
   "dependencies": {
-    "@hyas/doks": "^0.4.0"
+    "@hyas/doks": "^0.4.0",
+    "atomic-algolia": "^0.3.19"
   }
 }

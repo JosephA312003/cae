@@ -11,7 +11,7 @@ rssLimit = 15
 
 # redirects/headers
 [outputs]
-home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
+home = ["HTML", "RSS", "REDIRECTS", "HEADERS", "ALGOLIA"]
 section = ["HTML", "RSS", "SITEMAP"]
 
 # remover .{ext} de text/netlify
@@ -41,6 +41,16 @@ isHTML = false
 isPlainText = true
 noUgly = true
 rel  = "sitemap"
+
+[outputFormats.Algolia]
+baseName = "algolia"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
+
+[params.algolia]
+vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
+params = ["categories", "tags"]
 
 [caches]
   [caches.getjson]
