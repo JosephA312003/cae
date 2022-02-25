@@ -44,8 +44,8 @@ function inputFocus(e) {
 /*
 if (document.querySelector('#search') !== null) {
   docsearch({
-    apiKey: '89f91b80c77205fbd14f6c09e03bc816',
-    indexName: 'caefis.netlify.app',
+    apiKey: '978789745e8a1cf3e9a3f0fa321dbdb9',
+    indexName: 'getdoks',
     inputSelector: '#search',
     debug: false,
   });
@@ -67,7 +67,7 @@ const processForm = form => {
     body: data,
   })
   .then(() => {
-    form.innerHTML = '<p class="form--success"><strong>¡Casi terminamos!</strong> Como medidad de seguridad, te enviamos un correo de confirmación.</p>';
+    form.innerHTML = '<p class="form--success"><strong>Casi terminamos</strong>, revisa en tu correo en búsqueda del mensaje de confirmación.</p>';
   })
   .catch(error => {
     form.innerHTML = '<p class="form--error"><strong>Error:</strong> ${error}</p>';
