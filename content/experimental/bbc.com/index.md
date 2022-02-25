@@ -17,7 +17,7 @@ types: ["Biología"]
 functionalities: ["Artículo"]
 ---
 
-```
+```text
 Extracto traducido automáticamente de la "BBC"
 ```
 

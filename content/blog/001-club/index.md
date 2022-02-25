@@ -14,7 +14,7 @@ tags: ["evento"]
 
 El siete de febrero (este lunes) comienzan una serie de reuniones semanales para discutir acerca de un libro en particular. En este caso, se trata de:
 
-```
+```text
 "El carácter de la ley física" de Richard Feynmann.
 ```
 

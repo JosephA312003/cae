@@ -30,6 +30,8 @@ contributors: ["Alvaro"]
 
 > 📌 Los temas que se tocarán son los correspondientes al estudio del ....
 
+[](ignored)
+
 > <b>Requisitos</b>: ...
 
 #### Teóricos

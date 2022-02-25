@@ -22,7 +22,7 @@ matricularse hasta que hacer después de egresar de la carrera.
 
 La sección de pregrado contiene detalles sobre qué libros usar para el estudio
 de las ciencias físicas. Este contenido se ha dividido por ciclos y cursos.
-Puede acceder a cada una de estas páginas usando el menú de la izquierda. 
+Puede acceder a cada una de estas páginas usando el menú de la izquierda.
 En esta sección también podrás encontrar un listado de bibliotecas donde puedes
 conseguir los libros que se recomiendan aquí. Deslízate en el menú de la
 izquierda hasta la parte final.

@@ -21,7 +21,7 @@ weight: 900
 
 |Nombre|Idioma|Contenido|Tamaño|
 | ---- | ---- | ------- | ---- |
-[Biblioteca digital HathiTrust](https://www.hathitrust.org/)|Inglés|Libros escaneados, proyecto de varias universidades estadounidenses|Grande (17268611), (3037281 en dominio público) 
+[Biblioteca digital HathiTrust](https://www.hathitrust.org/)|Inglés|Libros escaneados, proyecto de varias universidades estadounidenses|Grande (17268611), (3037281 en dominio público)
 [Crónicas de Estados Unidos de América](https://chroniclingamerica.loc.gov/)|Inglés|Periódicos estadounidenses digitalizados|Grande (2397313)
 [Biblioteca Digital Hispánica](http://www.bne.es/es/Catalogos/BibliotecaDigitalHispanica/Inicio/index.html)|Español|Monografías impresas, manuscritos, fotografías, partituras, material cartográfico, [prensa y revistas](http://hemerotecadigital.bne.es/index.vm)|Mediano (224339)
 [Repositorio de la PUCP](http://repositorio.pucp.edu.pe)|Español|Documentos y fotografías de carácter académico, científico e institucional producidos por la PUCP|Mediano (44897) entre imágenes y documentos
@@ -49,6 +49,7 @@ weight: 900
 ### Academia
 
 [Academic Torrents](https://academictorrents.com/) `torrent`:
+
 * Artículos científicos, cursos y sets de datos
 * Tamaño: grande
 
@@ -56,7 +57,7 @@ Nombre|Idioma|Contenido|Tamaño
 ------|------|---------|------
 [Semantic Scholar](https://www.semanticscholar.org/)|Inglés|Artículos científicos|Grande (181061808)
 [SciHub](https://sci-hub.tw/) [1](https://sci-hub.se/)|Ingles|Artículos científicos|Grande
-[Biblioteca Génesis](http://libgen.lc/) [1](http://libgen.li/) [2](http://185.39.10.101/)|Inglés, español, alemán, entre otros|Libros universitarios, artículos científicos, ficción, cómics y revistas|Grande 
+[Biblioteca Génesis](http://libgen.lc/) [1](http://libgen.li/) [2](http://185.39.10.101/)|Inglés, español, alemán, entre otros|Libros universitarios, artículos científicos, ficción, cómics y revistas|Grande
 [Biblioteca Z - Artículos](https://booksc.xyz/)|Inglés, español, entre otros|Artículos científicos|Mediano-grande (77143139)
 
 ### Específico
@@ -64,14 +65,16 @@ Nombre|Idioma|Contenido|Tamaño
 Nombre|Idioma|Contenido|Hospedaje
 ------|------|---------|---------
 [Biblioteca Digital de la Libertad](https://oll.libertyfund.org/)|Inglés|Obras sobre libertad individual y mercado libre|Propio `.pdf` `.epub` `.mobi` `.html`
-[Textos modernos tempranos](https://earlymoderntexts.com/)|Inglés|Obras de filosofía moderna temprana|Propio `.pdf` y `.epub` 
+[Textos modernos tempranos](https://earlymoderntexts.com/)|Inglés|Obras de filosofía moderna temprana|Propio `.pdf` y `.epub`
 [Textos cristianos tempranos](http://earlychristianwritings.com/)|Inglés|Escrituras cristianas tempranas|Propio; descarga no disponible
 [Biblioteca de Libretas de Notas](https://www.exercisebookarchive.org/)|Inglés|Libretas de notas de alumnos de distintos lugares y épocas|Descarga no disponible
 
-# Formatos específicos
-## Libros
+## Formatos específicos
 
-### General
+### Libros
+
+#### General
+
 1. IRC
 
    |Nombre|Canal|
@@ -99,7 +102,7 @@ Nombre|Idioma|Contenido|Hospedaje
    [Esokrat](https://esokrat.com/) `Literatura`|Pequeño (alrededor de 5000)|Inglés|`.epub` `.doc` `.txt` `.jar`  `.fb2`|Propio
    [BookFlare](https://bookflare.org/)|Pequeño (2462)|Inglés|`.pdf`|SnowFiles, Usersdrive
 
-### Informática
+#### Informática
 
  Nombre|Contenido|Idioma|Formato|Hospedaje
  ------|---------|------|------|---------

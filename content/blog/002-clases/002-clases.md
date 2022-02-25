@@ -17,7 +17,9 @@ tags: ["lista"]
 - [AP® Physics 2 - Part 3: Optics and Modern Physics](https://www.edx.org/course/apr-physics-2-part-3-optics-modern-ricex-advphy2-3x-0): Rice University en EDX
 
 ## Electromagnestismo
+
 ### Demostraciones y experimentos
+
 #### Electroestática
 
 - Carga por inducción: [DEMO: Charging by Induction](https://www.youtube.com/watch?v=N-Wofq4Jz2M)

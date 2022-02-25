@@ -13,10 +13,11 @@ __Resumen__: No utilizamos cookies y no recogemos Datos Personales de forma obli
 
 ---
 
-```
+```text
 Titular y Responsable del tratamiento de los Datos: Centro de Apoyo Estudiantil (CAE)
 Correo electrónico de contacto del Titular: cae.fisica.unmsm [en] gmail [punto] com
 ```
+
 ## Visitantes
 
 - No recogemos ninguna información personal.
@@ -40,14 +41,14 @@ Este tipo de servicios tienen por finalidad el alojamiento de Datos y archivos p
 
 Algunos servicios de los enumerados más adelante, en su caso, pueden funcionar mediante servidores geográficamente distribuidos, lo que dificulta la determinación de la localización exacta en la que se almacenan los Datos Personales.
 
-```
+```text
 Netlify (Netlify, Inc.)
 ```
 
 Netlify es un servicio de hosting prestado por Netlify, Inc.
 
-* Datos Personales tratados: Datos comunicados durante el uso del servicio.
-* Lugar de tratamiento: EE.UU. – Política de privacidad.
+- Datos Personales tratados: Datos comunicados durante el uso del servicio.
+- Lugar de tratamiento: EE.UU. – Política de privacidad.
 
 ---
 

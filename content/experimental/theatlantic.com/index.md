@@ -17,7 +17,7 @@ types: ["Psicología"]
 functionalities: ["Artículo"]
 ---
 
-```
+```text
 Extracto traducido automáticamente de "The Atlantic"
 ```
 

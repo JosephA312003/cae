@@ -17,7 +17,7 @@ types: ["Programación"]
 functionalities: ["Artículo"]
 ---
 
-```
+```text
 Extracto traducido automáticamente de "The Verge"
 ```
 

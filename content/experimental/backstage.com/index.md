@@ -17,6 +17,6 @@ types: ["Efectos visuales"]
 functionalities: ["Artículo"]
 ---
 
-```
+```text
 Extracto traducido automáticamente de "Backstage"
 ```

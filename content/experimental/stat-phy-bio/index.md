@@ -17,7 +17,7 @@ types: ["Física", "Biología"]
 functionalities: ["Revisado por pares"]
 ---
 
-```
+```text
 Extracto traducido automáticamente
 ```
 

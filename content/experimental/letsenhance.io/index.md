@@ -17,7 +17,7 @@ types: ["Computacional"]
 functionalities: ["Artículo"]
 ---
 
-```
+```text
 Extracto traducido automáticamente de "Let's Enhance"
 ```
 
