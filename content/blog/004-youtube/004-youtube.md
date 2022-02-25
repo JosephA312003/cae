@@ -1,5 +1,5 @@
 ---
-title: "Canales recomendados de Youtube"
+title: "Youtube"
 description: "Porque a veces uno no sabe en dónde buscar."
 lead: "Porque a veces uno no sabe en dónde buscar."
 date: 2022-01-30T09:19:42+01:00
