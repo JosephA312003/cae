@@ -8,9 +8,9 @@ description = "Facilitando recursos para el estudio de la física."
 
 ## Open Graph
 images = ["doks.png"]
-ogLocale = "en_US"
+ogLocale = "es_ES"
 domainTLD = "caefis.netlify.app"
-titleHome = "CAE Theme"
+titleHome = "Centro de Apoyo Estudiantil"
 
 ## Twitter Cards
 twitterSite = "@cae_fisica"
@@ -87,5 +87,5 @@ lastMod = true
 [menu]
   [menu.section]
     auto = true
-    collapsibleSidebar = true
-    mainSections = ["San Marcos", "Biblioteca", "Experimental", "Blog"]
+    collapsibleSidebar = false
+    mainSections = ["Pregrado", "Posgrado", "Biblioteca", "Experimental", "RSS", "Blog"]

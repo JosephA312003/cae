@@ -14,7 +14,7 @@ url = "/pregrado/cursos/"
 name = "Research"
 weight = 10
 identifier = "research"
-url = "/research/"
+url = "/posgrado/research"
 
 [[main]]
   name = "San Marcos"
@@ -45,7 +45,7 @@ url = "/research/"
 [[main]]
   name = "Posgrado"
   weight = 20
-  url = "/posgrado/maestria"
+  url = "/posgrado/research/maestria/"
   parent = "San Marcos"
 
 [[main]]
