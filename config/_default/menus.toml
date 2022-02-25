@@ -86,7 +86,7 @@ url = "/posgrado/research"
 
 [[footer]]
   name = "Boletín"
-  url = "/boletin"
+  url = "/newsletter"
   weight = 10
   
 [[footer]]
