@@ -67,6 +67,7 @@
 
     {{ if or .Params.math .Site.Params.math }}
     {{ partial "main/katex.html" . }}
+    {{ partial "header/quiz.html" . }}
     {{ end }}
 
     {{ if .Site.Params.options.darkMode -}}
