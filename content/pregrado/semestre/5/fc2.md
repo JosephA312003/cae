@@ -34,9 +34,9 @@ contributors: ["Alvaro"]
 
 > <b>Requisitos</b>: ...
 
-#### Teóricos
+#### Libros recomendados
 
 |Nombre|Autor|Año|Editor|
 |------|-----|---|------|
-|Libro 1|Autor 1|Año|Editor|
-|Libro 1|Autor 1|Año|Editor|
+|Métodos numéricos aplicados con software|Sholchlro Nakamura|1992|Prentice-Hall Hispanoamericana|
+|Métodos numéricos y computación|Ward Cheney|2010|Cengage Learning|

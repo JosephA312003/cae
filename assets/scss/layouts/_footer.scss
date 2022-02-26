@@ -13,6 +13,11 @@
   margin-bottom: 0;
 }
 
+ul {
+  margin-block-end: .4em !important;
+  margin-block-start: .4em !important;
+}
+
 @include media-breakpoint-up(md) {
   .footer li {
     font-size: $font-size-base;

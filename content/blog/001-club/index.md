@@ -1,10 +1,9 @@
 ---
 title: "Club de Lectura"
 description: ""
-lead: ""
+lead: "Para aprovechar mejor estas fechas (vacaciones de verano), decidimos formar un club de lectura, comenzaremos con Richard Feynmann."
 date: 2022-01-30T09:19:42+01:00
 lastmod: 2022-02-10T09:19:42+01:00
-weight: 20
 images: [""]
 contributors: ["David"]
 tags: ["evento"]

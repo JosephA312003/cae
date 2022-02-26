@@ -1,10 +1,9 @@
 ---
 title: "Clases en línea"
-description: ""
-lead: ""
+description: "Lista de clases grabadas en formato de video, incluye listas de reproducción de Youtube."
+lead: "Lista de clases grabadas en formato de video, incluye listas de reproducción de Youtube."
 date: 2022-01-30T09:19:42+01:00
 lastmod: 2022-02-03T09:19:42+01:00
-weight: 20
 images: ["https://i.imgur.com/GgoqSI0.png"]
 contributors: ["Renzo"]
 tags: ["lista"]

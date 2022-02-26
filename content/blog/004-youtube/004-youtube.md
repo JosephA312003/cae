@@ -1,10 +1,9 @@
 ---
 title: "Youtube"
 description: "Porque a veces uno no sabe en dónde buscar."
-lead: "Porque a veces uno no sabe en dónde buscar."
+lead: "Porque a veces uno no sabe en dónde buscar. Esta lista no es necesariamente académica, para ello véase la sección dentro de cada curso."
 date: 2022-01-30T09:19:42+01:00
 lastmod: 2022-02-03T09:19:42+01:00
-weight: 30
 images: ["https://i.imgur.com/GgoqSI0.png"]
 contributors: ["David"]
 tags: ["lista"]
