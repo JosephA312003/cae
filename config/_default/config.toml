@@ -5,9 +5,10 @@ disableHugoGeneratorInject = true
 enableEmoji = true
 enableGitInfo = true
 enableRobotsTXT = true
-languageCode = "en-US"
+languageCode = "es-ES"
 paginate = 7
 rssLimit = 15
+disablePathToLower = true
 
 # redirects/headers
 [outputs]

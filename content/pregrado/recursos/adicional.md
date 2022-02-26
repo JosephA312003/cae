@@ -2,7 +2,7 @@
 title: "Biblioteca digital"
 description: ""
 lead: ""
-date: 2022-02-02T08:48:57+00:00
+date: 2022-02-01T12:00:00
 lastmod:
   - :git
   - lastmod

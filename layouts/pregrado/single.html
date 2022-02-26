@@ -26,8 +26,8 @@
 			</nav>
 			{{ end }}
 			<h1>{{ .Title }}</h1>
-			{{ partial "main/blog-meta.html" . }}
 			<p class="lead">{{ .Params.lead | safeHTML }}</p>
+			{{ partial "main/blog-meta.html" . }}
 			{{ if ne (hugo.Environment) "development" -}}
 				{{ partial "main/carbonads.html" . }}
 			{{ end -}}

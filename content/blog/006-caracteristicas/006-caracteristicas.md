@@ -6,7 +6,7 @@ date: 2022-02-25T00:09:00+01:00
 lastmod: 2022-02-25T00:09:00+01:00
 images: ["https://i.imgur.com/GgoqSI0.png"]
 contributors: ["David"]
-tags: ["lista"]
+tags: ["otros"]
 ---
 
 El proyecto surgió hace ya casi un mes. Inicialmente usábamos el servicio de Sites de Google, sin embargo, este es un servicio muy limitado. Motivo por el cual optamos por diseñar una página propia.
@@ -18,6 +18,8 @@ El proyecto surgió hace ya casi un mes. Inicialmente usábamos el servicio de S
         - Añadido soporte a ecuaciones a través de KaTeX
     - Blog 
 
+<p>   </p>
+
 2. **Fase 1**
 
     - Sección de posgrado
@@ -27,6 +29,8 @@ El proyecto surgió hace ya casi un mes. Inicialmente usábamos el servicio de S
     - Búsqueda de contenido limitado
     - Política de privacidad
 
+<p>   </p>
+
 3. **Fase 2**
 
     - Búsqueda de contenido global gracias a Algolia
@@ -34,6 +38,8 @@ El proyecto surgió hace ya casi un mes. Inicialmente usábamos el servicio de S
     - Boletín informativo
     - Comentarios en las páginas
     - Quiz
+
+<p>   </p>
 
 4. **Futuro**
 

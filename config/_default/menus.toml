@@ -39,7 +39,7 @@ url = "/posgrado/research"
 [[main]]
   name = "Pregrado"
   weight = 10
-  url = "/pregrado/"
+  url = "/pregrado/semestre/1/"
   parent = "San Marcos"
 
 [[main]]
