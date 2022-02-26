@@ -30,11 +30,12 @@ contributors: ["Alvaro"]
 
 > 📌 Los temas que se tocarán son los correspondientes al estudio del ....
 
-> <b>Requisitos</b>: ...
+> <b>Requisitos</b>:
+> - Física Computacional I
 
-#### Teóricos
+#### Libros recomendados
 
 |Nombre|Autor|Año|Editor|
 |------|-----|---|------|
-|Libro 1|Autor 1|Año|Editor|
-|Libro 1|Autor 1|Año|Editor|
+|Métodos numéricos aplicados con software|Sholchlro Nakamura|1992|Prentice-Hall Hispanoamericana|
+|Métodos numéricos y computación|Ward Cheney|2010|Cengage Learning|
