@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="{{ .Site.LanguageCode | default "en" }}">
+  <head>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v13.0" nonce="oGKQjmS9"></script>
+  </head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/caefis/assets@b80614edd3107e3bdbff957f66d43d8585b315e6/iframe.css">
+  {{ partial "head/head.html" . }}
+  {{ if eq .Kind "home" -}}
+    {{ .Scratch.Set "class" "home" -}}
+  {{ else if eq .Kind "404" -}}
+    {{ .Scratch.Set "class" "error404" -}}
+  {{ else if eq .Kind "page" -}}
+    {{ .Scratch.Set "class" .Type -}}
+    {{ .Scratch.Add "class" " single" -}}
+  {{ else -}}
+    {{ .Scratch.Set "class" .Type -}}
+    {{ .Scratch.Add "class" " list" -}}
+  {{ end -}}
+  <body class="{{ .Scratch.Get "class" }}">
+    {{ partial "header/header.html" . }}
+    <div class="container" align="center">
+      <div class="row align-items-start">
+        <div class="col align-self-center">
+          <a class="twitter-timeline" href="https://twitter.com/caefisica?ref_src=twsrc%5Etfw">Tweets by caefisica</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+      </div>
+    </div>
+    {{ block "sidebar-prefooter" . }}{{ end }}
+    {{ block "sidebar-footer" . }}{{ end }}
+    {{ partial "footer/footer.html" . }}
+    {{ if and .IsHome .Site.Params.alert }}
+      {{ partial "footer/alert.html" . }}
+    {{ end }}
+    {{ partial "footer/script-footer.html" . }}
+  </body>
+</html>
