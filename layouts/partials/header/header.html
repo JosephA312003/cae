@@ -66,8 +66,8 @@
     </div>
 
     {{ if or .Params.math .Site.Params.math }}
-    {{ partial "main/katex.html" . }}
-    {{ partial "header/quiz.html" . }}
+      {{ partial "main/katex.html" . }}
+      {{ partial "header/quiz.html" . }}
     {{ end }}
 
     {{ if .Site.Params.options.darkMode -}}
@@ -83,12 +83,12 @@
         <span class="d-none d-lg-inline"></span>English
       </button>
       <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="doks-languages">
-        <li><a class="dropdown-item current" aria-current="true" href="/docs/5.0/">English</a></li>
+        <li><a class="dropdown-item current" aria-current="true" href="/docs/5.0/">Inglés</a></li>
         <li><hr class="dropdown-divider"></li>
         <li><a class="dropdown-item" href="https://getbootstrap.com/docs/3.4/">Dutch</a></li>
-        <li><a class="dropdown-item" href="https://getbootstrap.com/2.3.2/">Russian</a></li>
+        <li><a class="dropdown-item" href="https://getbootstrap.com/2.3.2/">Ruso</a></li>
         <li><hr class="dropdown-divider"></li>
-        <li><a class="dropdown-item" href="/docs/contributing/how-to-contribute/">Help Translate</a></li>
+        <li><a class="dropdown-item" href="/docs/contributing/how-to-contribute/">Ayúdanos a traducir</a></li>
       </ul>
     </div>
     {{ end -}}
@@ -118,7 +118,7 @@
         <li><a class="dropdown-item" href="https://getbootstrap.com/docs/3.4/">v3.4.1</a></li>
         <li><a class="dropdown-item" href="https://getbootstrap.com/2.3.2/">v2.3.2</a></li>
         <li><hr class="dropdown-divider"></li>
-        <li><a class="dropdown-item" href="/docs/versions/">Todas las versiones.</a></li>
+        <li><a class="dropdown-item" href="/docs/versions/">Todas las versiones</a></li>
       </ul>
     </div>
     {{ else -}}

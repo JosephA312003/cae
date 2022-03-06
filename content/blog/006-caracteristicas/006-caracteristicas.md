@@ -16,7 +16,7 @@ El proyecto surgió hace ya casi un mes. Inicialmente usábamos el servicio de S
     - Sección de pregrado
         - Añadido breadcrumb
         - Añadido soporte a ecuaciones a través de KaTeX
-    - Blog 
+    - Blog
 
 <p>   </p>
 

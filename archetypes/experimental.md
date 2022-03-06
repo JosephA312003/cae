@@ -9,7 +9,7 @@ images: []
 link: ""
 menu:
   experimental:
-    parent: "browse"
+    parent: "general"
 weight: 999
 toc: false
 pinned: false

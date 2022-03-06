@@ -2,6 +2,6 @@
 {{ $section := .Get "section" -}}
 {{ $text := .Get "text" -}}
 {{ $posts := ($.Site.GetPage "section" $section).Pages.ByWeight -}}
-{{ range last 1 $posts -}}
+{{ range first 1 $posts -}}
   <a href="{{ .Permalink }}">{{ $text | safeHTML }}</a>
 {{ end -}}

@@ -58,7 +58,7 @@ copyRight = "Copyright (c) 2022 — CAE"
 
 
 # Alert
-alert = true
+alert = false
 alertDismissable = true
 # alertText = ""
 # alertText = ""
