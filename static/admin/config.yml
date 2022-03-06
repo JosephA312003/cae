@@ -3,16 +3,143 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 media_folder: static/img
 public_folder: /img
+publish_mode: editorial_workflow
+show_preview_links: true
+locale: 'es'
+logo_url: /images/logo.svg
+slug:
+  clean_accents: true
 collections:
-  - name: 'blog'
-    label: 'Blog'
-    folder: 'content/blog'
+  - name: blog
+    label: blog
+    folder: content/blog/
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    editor:
-      preview: false
+    nested:
+      depth: 1000
+      summary: '{{title}}' # optional summary for a tree node, defaults to the inferred title field
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: Título
+        name: title
+        widget: string
+      - label: Autor (List [ "tunombre" ])
+        name: contributors
+        widget: string
+      - label: Cuerpo
+        name: body
+        widget: markdown
+    meta: { path: { widget: string, label: 'Ruta (000-títulopag)', index_file: '_index.md' } }
+  - name: 'artículo'
+    label: 'artículo'
+    folder: 'content/experimental/'
+    create: true
+    slug: '{{slug}}'
+    nested:
+      depth: 1000
+      summary: '{{title}}'
+    editor:
+      preview: true
+    fields:
+      - { label: 'Título', name: 'title', widget: 'string' }
+      - { label: 'Descripción 1 (esta se muestra en la lista)', name: 'description', widget: 'string' }
+      - { label: 'Descripción 2 (esta se muestra en la página)', name: 'lead', widget: 'string' }
+      - { label: 'Imágenes', name: 'images', widget: 'string' }
+      - { label: 'Enlace', name: 'link', widget: 'string' }
+      - { label: 'Cuerpo', name: 'body', widget: 'markdown' }
+      - { label: 'TOC', name: 'toc', widget: "hidden", default: "false"}
+      - { label: 'Anclado', name: 'pinned', widget: "hidden", default: "false"}
+  - name: 'Ciclo I'
+    label: 'Ciclo I'
+    folder: 'content/pregrado/semestre/1/'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: true
+    fields:
+      - { label: 'Autor', name: 'contributors', widget: 'string' }
+      - { label: 'Título', name: 'title', widget: 'string' }
+      - { label: 'Descripción 1', name: 'description', widget: 'string' }
+      - { label: 'Descripción 2 (esta se muestra)', name: 'lead', widget: 'string' }
+      - { label: 'Orden (10 en 10, menor va primero)', name: 'weight', widget: 'string' }
+      - { label: 'Fecha de publicación', name: 'date', widget: 'datetime' }
+      - { label: 'Borrador', name: 'draft', widget: 'boolean', default: true}
+      - { label: 'Cuerpo', name: 'body', widget: 'markdown' }
+  - name: 'Ciclo II'
+    label: 'Ciclo II'
+    folder: 'content/pregrado/semestre/2/'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: true
+    fields:
+      - { label: 'Autor', name: 'contributors', widget: 'string' }
+      - { label: 'Título', name: 'title', widget: 'string' }
+      - { label: 'Descripción 1', name: 'description', widget: 'string' }
+      - { label: 'Descripción 2 (esta se muestra)', name: 'lead', widget: 'string' }
+      - { label: 'Orden (10 en 10, menor va primero)', name: 'weight', widget: 'string' }
+      - { label: 'Fecha de publicación', name: 'date', widget: 'datetime' }
+      - { label: 'Borrador', name: 'draft', widget: 'boolean', default: true}
+      - { label: 'Cuerpo', name: 'body', widget: 'markdown' }
+  - name: 'Ciclo III'
+    label: 'Ciclo III'
+    folder: 'content/pregrado/semestre/3/'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: true
+    fields:
+      - { label: 'Autor', name: 'contributors', widget: 'string' }
+      - { label: 'Título', name: 'title', widget: 'string' }
+      - { label: 'Descripción 1', name: 'description', widget: 'string' }
+      - { label: 'Descripción 2 (esta se muestra)', name: 'lead', widget: 'string' }
+      - { label: 'Orden (10 en 10, menor va primero)', name: 'weight', widget: 'string' }
+      - { label: 'Fecha de publicación', name: 'date', widget: 'datetime' }
+      - { label: 'Borrador', name: 'draft', widget: 'boolean', default: true}
+      - { label: 'Cuerpo', name: 'body', widget: 'markdown' }
+  - name: 'Ciclo IV'
+    label: 'Ciclo IV'
+    folder: 'content/pregrado/semestre/4/'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: true
+    fields:
+      - { label: 'Autor', name: 'contributors', widget: 'string' }
+      - { label: 'Título', name: 'title', widget: 'string' }
+      - { label: 'Descripción 1', name: 'description', widget: 'string' }
+      - { label: 'Descripción 2 (esta se muestra)', name: 'lead', widget: 'string' }
+      - { label: 'Orden (10 en 10, menor va primero)', name: 'weight', widget: 'string' }
+      - { label: 'Fecha de publicación', name: 'date', widget: 'datetime' }
+      - { label: 'Borrador', name: 'draft', widget: 'boolean', default: true}
+      - { label: 'Cuerpo', name: 'body', widget: 'markdown' }
+  - name: 'Ciclo V'
+    label: 'Ciclo V'
+    folder: 'content/pregrado/semestre/5/'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: true
+    fields:
+      - { label: 'Autor', name: 'contributors', widget: 'string' }
+      - { label: 'Título', name: 'title', widget: 'string' }
+      - { label: 'Descripción 1', name: 'description', widget: 'string' }
+      - { label: 'Descripción 2 (esta se muestra)', name: 'lead', widget: 'string' }
+      - { label: 'Orden (10 en 10, menor va primero)', name: 'weight', widget: 'string' }
+      - { label: 'Fecha de publicación', name: 'date', widget: 'datetime' }
+      - { label: 'Borrador', name: 'draft', widget: 'boolean', default: true}
+      - { label: 'Cuerpo', name: 'body', widget: 'markdown' }
+  - name: 'Ciclo VI'
+    label: 'Ciclo VI'
+    folder: 'content/pregrado/semestre/6/'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: true
+    fields:
+      - { label: 'Autor', name: 'contributors', widget: 'string' }
+      - { label: 'Título', name: 'title', widget: 'string' }
+      - { label: 'Descripción 1', name: 'description', widget: 'string' }
+      - { label: 'Descripción 2 (esta se muestra)', name: 'lead', widget: 'string' }
+      - { label: 'Orden (10 en 10, menor va primero)', name: 'weight', widget: 'string' }
+      - { label: 'Fecha de publicación', name: 'date', widget: 'datetime' }
+      - { label: 'Borrador', name: 'draft', widget: 'boolean', default: true}
+      - { label: 'Cuerpo', name: 'body', widget: 'markdown' }
