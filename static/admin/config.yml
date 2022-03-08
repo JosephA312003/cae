@@ -14,6 +14,7 @@ collections:
     label: blog
     folder: content/blog/
     create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     nested:
       depth: 1000
       summary: '{{title}}' # optional summary for a tree node, defaults to the inferred title field
@@ -40,13 +41,15 @@ collections:
       preview: true
     fields:
       - { label: 'Título', name: 'title', widget: 'string' }
-      - { label: 'Descripción 1 (esta se muestra en la lista)', name: 'description', widget: 'string' }
-      - { label: 'Descripción 2 (esta se muestra en la página)', name: 'lead', widget: 'string' }
-      - { label: 'Imágenes', name: 'images', widget: 'string' }
+      - { label: 'Descripción 1 (se muestra lista)', name: 'description', widget: 'string' }
+      - { label: 'Descripción 2 (se muestra en la página en sí)', name: 'lead', widget: 'string' }
+      - { label: 'Tópicos', name: 'types', widget: 'string', required: true }
+      - { label: 'Categorías', name: 'functionalities', widget: "select", options: ["Artículo", "Revisado por pares"], multiple: true, required: true }
+      - { label: 'Imagen (nombre del archivo)', name: 'images', widget: 'string' }
       - { label: 'Enlace', name: 'link', widget: 'string' }
-      - { label: 'Cuerpo', name: 'body', widget: 'markdown' }
+      - { label: 'Anclado', name: 'pinned', widget: "select", options: ["true", "false"], default: false, multiple: true, required: true}
+      - { label: 'Extracto', name: 'body', widget: 'markdown' }
       - { label: 'TOC', name: 'toc', widget: "hidden", default: "false"}
-      - { label: 'Anclado', name: 'pinned', widget: "hidden", default: "false"}
   - name: 'Ciclo I'
     label: 'Ciclo I'
     folder: 'content/pregrado/semestre/1/'
@@ -57,8 +60,8 @@ collections:
     fields:
       - { label: 'Autor', name: 'contributors', widget: 'string' }
       - { label: 'Título', name: 'title', widget: 'string' }
-      - { label: 'Descripción 1', name: 'description', widget: 'string' }
-      - { label: 'Descripción 2 (esta se muestra)', name: 'lead', widget: 'string' }
+      - { label: 'Descripción 1 (se muestra lista)', name: 'description', widget: 'string' }
+      - { label: 'Descripción 2 (se muestra en la página en sí)', name: 'lead', widget: 'string' }
       - { label: 'Orden (10 en 10, menor va primero)', name: 'weight', widget: 'string' }
       - { label: 'Fecha de publicación', name: 'date', widget: 'datetime' }
       - { label: 'Borrador', name: 'draft', widget: 'boolean', default: true}
@@ -73,8 +76,8 @@ collections:
     fields:
       - { label: 'Autor', name: 'contributors', widget: 'string' }
       - { label: 'Título', name: 'title', widget: 'string' }
-      - { label: 'Descripción 1', name: 'description', widget: 'string' }
-      - { label: 'Descripción 2 (esta se muestra)', name: 'lead', widget: 'string' }
+      - { label: 'Descripción 1 (se muestra lista)', name: 'description', widget: 'string' }
+      - { label: 'Descripción 2 (se muestra en la página en sí)', name: 'lead', widget: 'string' }
       - { label: 'Orden (10 en 10, menor va primero)', name: 'weight', widget: 'string' }
       - { label: 'Fecha de publicación', name: 'date', widget: 'datetime' }
       - { label: 'Borrador', name: 'draft', widget: 'boolean', default: true}
@@ -89,8 +92,8 @@ collections:
     fields:
       - { label: 'Autor', name: 'contributors', widget: 'string' }
       - { label: 'Título', name: 'title', widget: 'string' }
-      - { label: 'Descripción 1', name: 'description', widget: 'string' }
-      - { label: 'Descripción 2 (esta se muestra)', name: 'lead', widget: 'string' }
+      - { label: 'Descripción 1 (se muestra lista)', name: 'description', widget: 'string' }
+      - { label: 'Descripción 2 (se muestra en la página en sí)', name: 'lead', widget: 'string' }
       - { label: 'Orden (10 en 10, menor va primero)', name: 'weight', widget: 'string' }
       - { label: 'Fecha de publicación', name: 'date', widget: 'datetime' }
       - { label: 'Borrador', name: 'draft', widget: 'boolean', default: true}
@@ -105,8 +108,8 @@ collections:
     fields:
       - { label: 'Autor', name: 'contributors', widget: 'string' }
       - { label: 'Título', name: 'title', widget: 'string' }
-      - { label: 'Descripción 1', name: 'description', widget: 'string' }
-      - { label: 'Descripción 2 (esta se muestra)', name: 'lead', widget: 'string' }
+      - { label: 'Descripción 1 (se muestra lista)', name: 'description', widget: 'string' }
+      - { label: 'Descripción 2 (se muestra en la página en sí)', name: 'lead', widget: 'string' }
       - { label: 'Orden (10 en 10, menor va primero)', name: 'weight', widget: 'string' }
       - { label: 'Fecha de publicación', name: 'date', widget: 'datetime' }
       - { label: 'Borrador', name: 'draft', widget: 'boolean', default: true}
@@ -121,8 +124,8 @@ collections:
     fields:
       - { label: 'Autor', name: 'contributors', widget: 'string' }
       - { label: 'Título', name: 'title', widget: 'string' }
-      - { label: 'Descripción 1', name: 'description', widget: 'string' }
-      - { label: 'Descripción 2 (esta se muestra)', name: 'lead', widget: 'string' }
+      - { label: 'Descripción 1 (se muestra lista)', name: 'description', widget: 'string' }
+      - { label: 'Descripción 2 (se muestra en la página en sí)', name: 'lead', widget: 'string' }
       - { label: 'Orden (10 en 10, menor va primero)', name: 'weight', widget: 'string' }
       - { label: 'Fecha de publicación', name: 'date', widget: 'datetime' }
       - { label: 'Borrador', name: 'draft', widget: 'boolean', default: true}
@@ -137,8 +140,8 @@ collections:
     fields:
       - { label: 'Autor', name: 'contributors', widget: 'string' }
       - { label: 'Título', name: 'title', widget: 'string' }
-      - { label: 'Descripción 1', name: 'description', widget: 'string' }
-      - { label: 'Descripción 2 (esta se muestra)', name: 'lead', widget: 'string' }
+      - { label: 'Descripción 1 (se muestra lista)', name: 'description', widget: 'string' }
+      - { label: 'Descripción 2 (se muestra en la página en sí)', name: 'lead', widget: 'string' }
       - { label: 'Orden (10 en 10, menor va primero)', name: 'weight', widget: 'string' }
       - { label: 'Fecha de publicación', name: 'date', widget: 'datetime' }
       - { label: 'Borrador', name: 'draft', widget: 'boolean', default: true}
