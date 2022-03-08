@@ -3,7 +3,6 @@
                 <img src="https://i.imgur.com/KFhCdMt.png" alt="Encabezado con el logo del CAE">
         </a>
 </p>
-<br>
 <p align="center">
         <em>
                 Hugo
