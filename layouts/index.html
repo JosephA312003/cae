@@ -1,5 +1,8 @@
 {{ define "main" }}
 <section class="section container mt-n3 pb-5">
+  <div class="row-auto text-center">
+    {{ partial "main/gallery.html" . -}}
+  </div>
   <div class="row justify-content-center">
     <div class="col-lg-12 text-center">
       <h1 class="mt-0">{{ .Title }}</h1>
@@ -9,9 +12,6 @@
       <a class="btn btn-primary btn-lg px-4 mb-2" href="{{ "pregrado/" | relURL }}" role="button">Comenzar</a>
       <p class="meta">Distribuido bajo la licencia de código abierto MIT. Versión {{ $data := getJSON "https://raw.githubusercontent.com/caefis/cae/master/package.json" }}{{ $data.version }}</a></p>
     </div>
-  </div>
-  <div class="row-auto text-center">
-    {{ partial "main/gallery.html" . -}}
   </div>
 </section>
 {{ end }}
