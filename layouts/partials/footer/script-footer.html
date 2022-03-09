@@ -72,6 +72,8 @@
   {{ end -}}
   <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" crossorigin="anonymous" defer></script>
 {{ end -}}
+
+{{ if eq (hugo.Environment) "production" -}}
 <!-- Messenger Chat plugin Code -->
 <div id="fb-root"></div>
 
@@ -102,3 +104,4 @@
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));
 </script>
+{{ end -}}

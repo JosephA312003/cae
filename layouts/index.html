@@ -10,6 +10,9 @@
       <p class="meta">Distribuido bajo la licencia de código abierto MIT. Versión {{ $data := getJSON "https://raw.githubusercontent.com/caefis/cae/master/package.json" }}{{ $data.version }}</a></p>
     </div>
   </div>
+  <div class="row-auto text-center">
+    {{ partial "main/gallery.html" . -}}
+  </div>
 </section>
 {{ end }}
 
