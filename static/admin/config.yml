@@ -54,7 +54,7 @@ collections:
       - { label: 'TOC', name: 'toc', widget: 'hidden', default: 'false'}
       - { label: 'Anclado', name: 'pinned', widget: "select", options: [ "true", "false" ], default: false, multiple: true, required: true}
       - { label: 'Tópicos', name: 'types', widget: 'string', required: true, default: '["Biología"]' }
-      - { label: 'Categorías', name: 'functionalities', widget: 'string', required: true, default: '["Artículo"]'
+      - { label: 'Categorías', name: 'functionalities', widget: 'string', required: true, default: '["Artículo"]' }
       - { label: 'Extracto', name: 'body', widget: 'markdown', default: "\n```text\nExtracto traducido automáticamente de la \"Página\"\n```\n\nEscribe el extracto aquí." }
     meta: { path: { widget: string, label: 'Página web, no enlace (ej. "bbc.com")', index_file: 'index.md' } }
   - name: 's1'
