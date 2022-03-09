@@ -69,10 +69,10 @@ collections:
       - { label: 'Descripción 1 (se muestra en lista)', name: 'description', widget: 'string', default: 'CFO000 — 0 créditos' }
       - { label: 'Descripción 2 (se muestra en la página en sí)', name: 'lead', widget: 'string', default: 'CFO000 — 0 créditos' }
       - { label: 'Fecha de publicación', name: 'date', widget: 'datetime' }
-      - { label: 'Fecha de modificación (NO TOCAR)', name: 'lastmod', widget: 'text', default: "- :git\n- lastmod\n- date\n- publishDate" }
+      - { label: 'Fecha de modificación (NO TOCAR)', name: 'lastmod', widget: 'text', default: 'List [ ":git", "lastmod", "date", "publishDate" ]' }
       - { label: 'Borrador', name: 'draft', widget: 'boolean', default: true}
       - { label: 'Imágenes (no tocar)', name: 'images', widget: 'string', default: "[]" }
-      - { label: 'No tocar', name: 'menu', widget: 'text', default: "pregrado:\n\tparent: \"semestre\"" }
+      - { label: 'No tocar', name: 'menu', widget: 'text', default: 'Map { "pregrado": Map { "parent": "semestre" } }' }
       - { label: 'Orden en el menú (menor va primero)', name: 'weight', widget: 'number', default: 10, value_type: "int", min: 10, max: 110, step: 10 }
       - { label: 'TOC', name: 'toc', widget: 'hidden', default: 'true'}
       - { label: 'Autor', name: 'contributors', widget: 'string', default: 'David' }
@@ -107,17 +107,17 @@ collections:
     editor:
       preview: true
     fields:
-      - { label: 'Código del curso (mayúsculas)', name: 'title', widget: 'string', default: 'CFO000' }
-      - { label: 'Descripción 1 (se muestra en lista)', name: 'description', widget: 'string', default: 'CFO000 — 0 créditos' }
-      - { label: 'Descripción 2 (se muestra en la página en sí)', name: 'lead', widget: 'string', default: 'CFO000 — 0 créditos' }
+      - { label: 'Código del curso (mayúsculas)', name: 'title', widget: 'string', default: CFO000 }
+      - { label: 'Descripción 1 (se muestra en lista)', name: 'description', widget: 'string', default: CFO000 — 0 créditos }
+      - { label: 'Descripción 2 (se muestra en la página en sí)', name: 'lead', widget: 'string', default: CFO000 — 0 créditos }
       - { label: 'Fecha de publicación', name: 'date', widget: 'datetime' }
-      - { label: 'Fecha de modificación (NO TOCAR)', name: 'lastmod', widget: 'text', default: "- :git\n- lastmod\n- date\n- publishDate" }
-      - { label: 'Borrador', name: 'draft', widget: 'boolean', default: true}
-      - { label: 'Imágenes (no tocar)', name: 'images', widget: 'string', default: "[]" }
-      - { label: 'No tocar', name: 'menu', widget: 'text', default: "pregrado:\n\tparent: \"semestre\"" }
+      - { label: 'Fecha de modificación (NO TOCAR)', name: 'lastmod', widget: 'text', default: 'List [ ":git", "lastmod", "date", "publishDate" ]' }
+      - { label: 'Borrador', name: 'draft', widget: 'boolean', default: true }
+      - { label: 'Imágenes (no tocar)', name: 'images', widget: 'string', default: 'List []' }
+      - { label: 'No tocar', name: 'menu', widget: 'text', default: 'Map { "pregrado": Map { "parent": "semestre" } }' }
       - { label: 'Orden en el menú (menor va primero)', name: 'weight', widget: 'number', default: 10, value_type: "int", min: 10, max: 110, step: 10 }
       - { label: 'TOC', name: 'toc', widget: 'hidden', default: 'true'}
-      - { label: 'Autor', name: 'contributors', widget: 'string', default: 'David' }
+      - { label: 'Autor', name: 'contributors', widget: 'string', default: ["David"] }
       - { label: 'LaTeX', name: 'math', widget: 'boolean', default: false}
       - { label: 'Cuerpo', name: 'body', widget: 'markdown', default: "\n\\{\\{< alert icon=\"📌\" text=\"MENSAJE\" \/>\\}\\}\n\n\\<br\\>\n\n\\{\\{ alert icon=\"👉\" text=\"REQUISITOS:\" \/>\\}\\}\n\n## Título\n\nNo comiences con \"#\". Comienza a partir de ##, luego ### y así.\n\nNota: Tus cambios no se verán instantáneamente." }
   - name: 's4'
